@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 14px;
+  font-family: arial;
+  color:#ddd;
+
+}
+
+.header{
+  background-color: #222;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.menu{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logocombi{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.right{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.textField, .home, .about, .products, .service{
+  margin-left: 20px;
+}
+ul{
+  list-style-type: none;
+  height: 50px;
+}
+
+.green{
+  background-color: yellowgreen;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.greenTitle{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.greenText{
+
+}
+h2{
+  font-size: 4.5em;
+  color:#adff2f;
+  margin-left: 25px;
+  font-weight: lighter;
+}
+.headText{
+  color:#adff2f;
+  margin-top: 15px;
+  font-size: 1.4em;
+}
+.btn{
+  margin-top: 20px;
+  width: 100px;
+  height: 35px;
+}
+.equa{
+  height: 60px;
+}
+.equa, h2{
+  margin-top:50px;
+}
+.equa, .headText, .btn{
+  margin-left: 50px;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+}
+a:hover{
+  color:white;
+  background: black;
+}
